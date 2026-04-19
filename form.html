@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        legend{
+            color:red;
+            font-weight: bold;
+            font-size: 32px;
+font-style: italic;
+
+        }
+        h2{
+            background-color: rgb(104, 70, 203);
+            color:white;
+            padding: 15px;
+        }
+        .input-group{
+            display: block;
+            line-height: 25px;
+            
+        }
+        body{
+            line-height: 25px;
+            font-family: gill sans MT;
+            background-color: rgb(126, 214, 214);
+            justify-content: center;
+            align-items: center;
+        }
+        #form1{
+           
+            margin: 15%;
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+        }
+        label{
+            color:rgb(104, 70, 203);
+            display: block;
+        }
+        .input-group1{
+           margin-top:10px;
+           margin-left: 40%;
+        }
+        form{
+             border-radius: 10%;
+            background-color: antiquewhite;
+        }
+        .input-group:hover{
+           font-size: 25px;
+           letter-spacing: 5px;
+        }
+      
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up form</title>
+</head>
+<body>
+    <div id="form1">
+<h2>Sign Up Form</h2>
+<form action="">
+<fieldset>
+<legend>Create Account</legend>
+<label>Full Name</label>
+<input type="text"placeholder="please enter your full name" name="full_name" required>
+<label>Country</label>
+<input type="text" name="country"required>
+<label>Email</label>
+<input type="email" name="email"required>
+<label>Password</label>
+<input type="password" placeholder="min pwd is 8">
+<label>Age</label>
+<input type="number" min="2">
+<label>Sex</label>
+<input type="radio" name="sex"value="male">Male
+<input type="radio" name="sex"value="female">Female
+<label>Field</label>
+<input type="checkbox" value="IT">IT
+<input type="checkbox" value="CS">CS
+<input type="checkbox" value="Accounting">IT
+<label>Upload Files</label>
+<input type="file">
+<div class="input-group1">
+<input type="Submit" class="input-group" value="Register">
+<input type="reset" class="input-group"value="Cancel">
+</div>
+</fieldset>
+
+</form>
+
+
+
+
+
+    </div>
+</body>
+</html>

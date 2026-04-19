@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    line-height: 35px;
+    margin-top: 18%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+.container a{
+    color: aliceblue;
+}
+.footer{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    background-color: rgb(74, 142, 148);
+    color:white;
+    text-align: center;
+}
+.footer a{
+    color: blanchedalmond;
+}
+.heading a{
+    display: block;
+    text-decoration: none;
+}
+.heading{
+    color: gold;
+}
+.heading a:hover{
+    color: rgb(90, 239, 130);
+    letter-spacing: 7px;
+}
+.heading1 a:hover{
+    color:purple;
+}
+.heading1 h3{
+   
+    color: gold;
+}
+.heading1 a{
+     display: block;
+}
